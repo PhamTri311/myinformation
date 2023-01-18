@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       body{
+        background-color:rgba(128, 128, 128, 0.242);
+       }
+        .body{
+            width:100%;
+            height:440px;
+            display:flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .avatar{
+            width:100px;
+            height:100px;
+            display:flex;
+            padding:20px 0px 20px 20px;
+            align-items: center;
+        }
+        a{
+            text-decoration:none;   
+            color:black;
+            border:1px solid white;
+            background-color:rgba(0, 128, 0, 0.359);
+            border-radius:4px;
+            padding:0 2px;
+        }
+        div+div{
+            margin-top:10px;
+        }
+        a:hover{
+            font-style:italic;
+            color:yellow;
+        }
+        .name{
+            flex-direction: column;
+            display:flex;
+            padding:20px;
+            
+        }
+        .container{
+            background-color:white;
+            display:flex;
+            border:1px solid black;
+            border-radius:5px;
+            overflow:hidden;    
+            
+        }
+        .padding{
+            padding:12px;
+        }
+        .fullname{
+            font-weight:600;
+            
+        }
+        .qrtele{
+            display:none;
+            position:absolute;
+            width:100px;
+            height:100px;
+            margin-left:70px;
+        }
+        .qrzalo{
+            display:none;
+            position:absolute;
+            width:100px;
+            height:100px;
+            margin-left:79px;
+
+        
+        }
+        .telegram{
+            display:flex;
+        }
+        .zalo{
+            display:flex;   
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="container">
+            <img class="paddding avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBta7vB1oetOn1UZleOdjx3nA2f0JVm_HdflqKItZLBxeJ-Jrv5SxjNA0dnmDwQ_yPJcI&usqp=CAU">
+        <div class=" name">
+            <span class="fullname">Phạm Văn Trí</span>
+         
+            <span class="gmail"><i>phamvantri***@gmail.com</i></span>
+            <span class="phone"><i>033*******</i></span>
+        </div>
+        <div class="padding link">
+            <div class="facebook">
+                <a href="https://www.facebook.com/profile.php?mibextid=ZbWKwL&gidzl=2iPCC9uE2mqCq4yqd1C330BIGJMBGr1S7uf4OOfA05aKYK1dXKzJMn6BHpA76bOBGOj6DpYdy7KFd0u930&id=100023571498502">Facebook</a>
+            </div>
+            <div class="zalo">
+                <a href="#" class="linkqrzalo">Zalo</a>
+                <img class="qrzalo" src="qrzalo.png">
+            </div>
+            <div class="telegram"> 
+                <a href="#" class="linkqrtele">Telegram</a>
+                <img class="qrtele" src="qrtele.png">
+            </div>
+            <div class="github">
+                <a href="https://github.com/PhamTri311" class="linkgit">Github</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="information.js">
+ 
+</script>
+</body>
+</html>
